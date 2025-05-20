@@ -233,3 +233,15 @@ Quantitative screening helps narrow thousands of assets to high-probability setu
 - **Alpha Score**:  
   `Alpha = 0.4 * Momentum + 0.3 * Volatility + 0.2 * Sentiment + 0.1 * Valuation`  
   _(Normalize each score to 0–1 and rank top candidates)_
+
+**Tools:** Most trading platforms allow you to screen trades. You can also write a custom screener in Python, or use online tools like [QuantConnect](https://www.quantconnect.com/), [StockFetcher](https://www.stockfetcher.com/), [Koyfin](https://www.koyfin.com/), and [Quiver Quant](https://www.quiverquant.com/).
+
+| **Tool**         | **Best For**                             |
+|------------------|-------------------------------------------|
+| **Finviz**       | Fast general screening (free)             |
+| **TradingView**  | Visual/technical traders                  |
+| **Yahoo Finance**| Beginners & long-term investors           |
+| **QuantConnect** | Coders + backtesting                      |
+| **Quiver Quant** | Sentiment + alternative data hunters      |
+| **Koyfin**       | Fundamentals + macro visuals              |
+
